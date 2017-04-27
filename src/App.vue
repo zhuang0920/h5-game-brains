@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view></router-view>
   </div>
 </template>
 
+<script src="js/tabbar.js"></script>
 <script>
+
 export default {
   name: 'app'
 }
